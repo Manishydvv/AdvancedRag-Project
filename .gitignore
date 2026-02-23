@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments - uv uses .venv by default
+.venv/
+venv/
+ENV/
+env/
+
+# uv
+# uv.lock is intentionally committed for reproducible builds
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Data & Uploads
+uploads/
+# sample/  # Uncomment if this folder contains large test datasets
+# *.pdf    # Uncomment if you want to globally ignore PDFs
+
+# Git worktrees
+.worktrees/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+tests/* # Note: If you write unit tests in this folder that you WANT to save, remove this line!
+
+# Project Specific
+notebooks/*
+notebooks/langchain/*
+!workflows/*
+workflows/README.md
+archived/*
+.claude/*
+
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
