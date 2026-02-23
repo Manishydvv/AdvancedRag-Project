@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔮 Corrective + Self-Reflective RAG
+# 🔮 Corrective +Self-Reflective RAG
 
 ### *Advanced Retrieval-Augmented Generation with Adaptive Intelligence*
 
